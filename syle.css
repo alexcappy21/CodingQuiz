@@ -1,0 +1,27 @@
+body {
+ background-color: rgb(101, 214, 171);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(183, 142, 238);
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+a{
+    color: wheat;
+    
+}
