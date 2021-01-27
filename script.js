@@ -1,7 +1,7 @@
 
 
 var askQuestion= document.getElementById("#question");
-askQuestion = questions.question[];
+askQuestion = questions.question();
 var questions = [
     {
         question: "Where is the JavaScript placed inside an HTML document or page?",
@@ -31,7 +31,7 @@ var questions = [
     }
 ]
 
-var questionIndex = 0
+var questionIndex = 0;
 
 
 function checkAnswer(event){
