@@ -76,7 +76,6 @@ var quizArea = document.getElementById("quizArea");
 
 var correctAns = 0;
 var questionNum = 0;
-// var scoreResult;
 var questionIndex = 0;
 
 
@@ -146,10 +145,7 @@ function saveHighScore(){
     console.log(newScore)
     highScores.push(newScore);
     window.localStorage.setItem("highScores", JSON.stringify(highScores));
-  //  window.location.href = "highscores.html";
   document.getElementById("highScoreSection").innerHTML=localStorage.getItem("highScores");
   }
 }
  submitInitialBtn.onclick=saveHighScore
-
- // Need to add function for high scores and return the high scores to the high scores page 

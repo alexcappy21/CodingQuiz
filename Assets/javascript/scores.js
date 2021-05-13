@@ -7,7 +7,7 @@ function printHighScores() {
 
     highScores.forEach(score => {
         var li=document.createElement("li")
-        li.textContent=score.initials+score.score
+        li.textContent=score.initials + "'s " + " Score: " + timeLeft.score
         var ol=document.getElementById("score-list")
         ol.appendChild(li)
     });
